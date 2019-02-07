@@ -34,6 +34,7 @@ quote = random_item(chosen_quotes)
 
 #core tk config
 root = tk.Tk()
+root.title("MyQuotesApp")
 msg = tk.Message(root, text=quote)
 msg.config(bg=color, font=("times",26,"italic"))
 msg.pack()
